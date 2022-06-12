@@ -1,0 +1,317 @@
+.ministry {
+  background-color: var(--ministry_colour);
+  width: 100%;
+  height: auto;
+  padding: 200px 0 100px 0;
+  text-align: center;
+}
+
+.ministry h3 {
+  color: white;
+  font-family: "Baskerville Old Face";
+  font-weight: normal;
+  font-size: 258px;
+  line-height: 155px;
+  text-align: center;
+  color: #fff;
+}
+.min_main_box1 {
+  width: 833px;
+  height: 273px;
+  margin: 100px auto 0px auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.min_main_box1 p {
+  width: 506px;
+  height: 209px;
+  font-family: "Proza Libre";
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: left;
+  color: #fff;
+  margin-left: 37px;
+}
+.min_main_box1 h3 {
+  font-family: "Proza Libre";
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 71px;
+  text-align: right;
+  color: #fff;
+  margin-right: 37px;
+}
+.min_box1 {
+  width: 3px;
+  height: 100%;
+  background: #fff;
+}
+
+.min_main_box2 {
+  margin: 155px auto 0 auto;
+  width: 979px;
+  height: 273px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.min_main_box2 h3 {
+  font-family: "Proza Libre";
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 71px;
+  text-align: left;
+  color: #fff;
+  margin-left: 37px;
+}
+.min_main_box2 p {
+  width: 506px;
+  height: 209px;
+  font-family: "Proza Libre";
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: right;
+  color: #fff;
+  margin-right: 37px;
+}
+.min_box2 {
+  width: 3px;
+  height: 100%;
+  background: #fff;
+}
+
+.min_main_box3 {
+  margin: 155px auto 0 auto;
+  width: 935px;
+  height: 273px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.min_main_box3 p {
+  width: 506px;
+  height: 209px;
+  font-family: "Proza Libre";
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: left;
+  color: #fff;
+  padding-left: 37px;
+}
+.min_main_box3 h3 {
+  font-family: "Proza Libre";
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 71px;
+  color: #fff;
+  padding-right: 37px;
+  text-align: right;
+}
+
+.min_main_box4 {
+  margin: 155px auto 0 auto;
+  width: 981px;
+  height: 273px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.min_main_box4 p {
+  width: 506px;
+  height: 209px;
+  font-family: "Proza Libre";
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: right;
+  color: #fff;
+  padding-right: 37px;
+}
+.min_main_box4 h3 {
+  font-family: "Proza Libre";
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 71px;
+  color: #fff;
+  padding-left: 37px;
+  text-align: left;
+}
+
+.min_main_box5 {
+  margin: 155px auto 0 auto;
+  width: 969px;
+  height: 273px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.min_main_box5 p {
+  width: 506px;
+  height: 209px;
+  font-family: "Proza Libre";
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: left;
+  color: #fff;
+  padding-left: 37px;
+}
+.min_main_box5 h3 {
+  font-family: "Proza Libre";
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 71px;
+  color: #fff;
+  padding-right: 37px;
+  text-align: right;
+}
+
+.min_main_box p {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-weight: normal;
+}
+
+/* ++++++ RESPONSIVE                              ++++++++++ */
+
+@media only screen and (max-width: 990px) {
+  .ministry > h3 {
+    color: white;
+
+    font-weight: normal;
+    font-size: 220px;
+    line-height: 100px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .min_main_box {
+    width: 700px;
+    height: 321px;
+  }
+  .min_main_box > h3 {
+    line-height: 50px;
+  }
+  .min_main_box > p {
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 808px) {
+  .ministry > h3 {
+    color: white;
+    font-weight: normal;
+    font-size: 220px;
+    line-height: 100px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .min_main_box {
+    width: 700px;
+  }
+}
+
+@media only screen and (max-width: 759px) {
+  .ministry > h3 {
+    font-size: 188px;
+  }
+
+  .min_main_box {
+    width: 80%;
+  }
+  .min_main_box p {
+    font-size: 16px;
+  }
+
+  .min_main_box h3 {
+    font-size: 34px;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .ministry > h3 {
+    font-size: 150px;
+  }
+
+  .min_main_box {
+    width: 90%;
+  }
+  .min_main_box p {
+    font-size: 16px;
+  }
+
+  .min_main_box h3 {
+    font-size: 34px;
+  }
+}
+
+@media only screen and (max-width: 567px) {
+  .ministry > h3 {
+    font-size: 130px;
+  }
+
+  .min_main_box {
+    width: 90%;
+    height: 400px;
+  }
+  .min_main_box p {
+    font-size: 16px;
+  }
+
+  .min_main_box h3 {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .ministry > h3 {
+    font-size: 120px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .min_main_box {
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+  }
+  .min_main_box p {
+    width: 90%;
+    height: auto;
+    text-align: center;
+    padding: 0;
+    padding-top: 30px;
+    margin: 0;
+  }
+  .min_main_box h3 {
+    padding: 0;
+    margin: 0;
+  }
+  .min_box1 {
+    width: 60px;
+    height: 3px;
+  }
+  .min_flex_end {
+    flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (max-width: 428px) {
+  .ministry > h3 {
+    font-size: 92px;
+  }
+}
+
+p {
+  font-weight: 100 !important ;
+}

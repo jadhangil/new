@@ -1,0 +1,11 @@
+:root {
+  --heading-family: "Arial Rounded MT";
+  --heading-size: 34px;
+  --second_colour: #ff9c1a;
+  --ministry_colour: #000;
+}
+
+.heading {
+  font-family: var(--heading-family);
+  font-size: var(--heading-size);
+}
